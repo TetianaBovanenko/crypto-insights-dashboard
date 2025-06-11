@@ -15,7 +15,7 @@ def fetch_top_coins(vs_currency="usd"):
     params = {
         "vs_currency": vs_currency,
         "order": "market_cap_desc",
-        "per_page": 20,  # ✅ Only top 20 coins
+        "per_page": 20,
         "page": 1,
         "sparkline": False,
         "price_change_percentage": "24h,7d"
